@@ -1,2 +1,5 @@
 def solution(num, n):
-    return 1 if num % n == 0 else 0
+    answer = 0
+    if num % n == 0:
+        answer = 1
+    return answer
